@@ -1,0 +1,117 @@
+Introduction to web server-
+
+1.)It deals with request and response model.
+
+Client-------------request---------http------------>Server
+
+Server-------------response--------http------------>Client
+
+2.)Web server has IP address and domain name.
+
+3.)Web server delivers the html document, styles,
+images etc.
+
+4.)HTTP (Hyper Text Transfer Protocol) it helps us to distribute
+the information over WWW(World Wide Web).
+
+How can we use web server with Node JS ?
+
+-->Node Js has http module and with the help of this module we 
+can create server.
+
+-->Node JS is used to create server side and network application.
+
+-->HTTP (Hyper Text Transfer Protocol).
+
+-->after testing all the functionalities to handle the application,
+will get the full fledge application.
+
+---------------------------------------------------------------------------
+
+Http server 
+
+// create 3 more routes ?
+ 
+// i)Products ii)Services iii)Contact
+
+------------------------------------------------------------
+
+Task 1-
+
+create synchronous and asynchronous code in single file.
+
+-----------------------------------------------------------
+
+Working of HTTP/1-
+
+when the client sends request to the server, the browser process the
+request initially and browser creates a new request to fetch the data
+from the server so this is not a good approach because user has to 
+wait for long while the browser prases the responses.it also increase
+the processing time if processing time of the application will be
+increased then the performance will get reduced.
+
+Working of HTTP/2-
+
+it has new feature i.e. push capabilities.
+
+with the help of push capabilities the server can send the asset to 
+the browser initially and browser sent back to the client.
+
+HTTP/2 has one more feature i.e. stream headers.
+
+streams are independent , with help of stream headers(bidirectional
+sequence of frames) we can exchage data between client and server
+within a single TCP connection.
+
+----------------------------------------------------------------
+
+Express JS-
+
+It is the web framework for Node JS.
+
+It is asynchronous in nature.
+
+It is faster as compare to other platforms like ASP and JSP.
+
+Features of Express JS-
+
+1.)Middleware-
+It allow us to use middleware to access the request and response
+objects.
+
+2.)Routing-
+It allows us to define the routes to handle different types of HTTP
+methods.
+
+3.)It has inbuilt error handling mechanism.
+
+4.)It is light weight in nature.
+
+------------------------------------------------------------------
+
+HTTP Methods-
+
+GET method-
+
+POST method-secure
+
+----------------------------------------------------------------------
+
+Task for practice days-20,21,22
+
+try to handle data sent by get request from Angular ?
+
+create Angular project-
+
+create form -- fetch data and recieve that data by get
+method using express and print it on the console.
+
+create on frontend folder - angular project (create contact component-
+reactive form - create one service - inject that service as a dependency
+injection)
+
+create one backend folder - u can install all the dependencies of the
+express and fetch data using get method and print it on the console.
+
+Need to use cors(cross origin resource sharing)

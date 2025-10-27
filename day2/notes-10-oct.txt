@@ -1,0 +1,49 @@
+Databinding-
+
+there are 3 ways to get data from the controller:
+
+1.)interpolation
+
+2.)array
+
+3.)json
+
+--------------------------------------------------------------
+
+directives-
+
+there are 3 types of directives in Angular-
+
+1.)Structure directives
+
+there are 3 types of Structure directives-
+
+i.)*ngFor - it is like for loop
+
+ii.)*ngIf - it is used to add or remove the element from the DOM on the 
+basis of condition.
+
+iii.)*ngSwitch-
+
+it is used to render the data conditionally
+on the basis of value.
+
+event binding -
+
+Two waya Databinding | MVVM architecture ?
+
+Model to view and view to model
+
+2.)Attribute directives-
+
+there are 2 types of Attribute directives-
+
+i.)ngClass-
+
+It is used to add dynamic classes to the html element on the basis of condition.
+
+ii.)ngStyle-
+
+It is used to add dynamic style to the html element on the basis of condition.
+
+3.)Custom directives

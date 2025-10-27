@@ -1,0 +1,30 @@
+Routing-
+
+It is used to create SPA(Single Page Appliacation).
+
+Routing is used to navigate between one page into another within th single page.
+
+-------------------------------------------------------------
+
+Parameter in Routing ?
+
+--------------------------------
+
+Nested Routing-
+
+the component inside component is called as nested component and
+the mechanism is called as nested Routing.
+
+<router-outlet></router-outlet>-
+
+it is used to specify the space where the routed component shuld be
+rended.
+
+------------------------------------------------------------------------
+
+Bootstrap-
+
+It is frontend framework which is used to make responsive Appliacation.
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ 

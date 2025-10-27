@@ -1,0 +1,255 @@
+Node JS-
+It is developed by Ryan Dahl in 2009.
+
+Node JS is written in C, C++ & javascript.
+
+It is an open source runtime environment.
+
+Node js refers to the cross platform and highly extensible
+programming platform.
+
+The purpose of the Node JS is to execute the javascript 
+code outside the web browser.
+
+In Node js we can save files via .js extension.
+
+Node JS has the ability to interpret the javascript code via
+V8 engine of google.
+
+----------------------------------------------------------------
+
+Server Side Scripting Language-
+
+It is used to create customised response for client request.
+
+Then the script can generate the response directly or it 
+can be connected with the backend server i.e. database to
+fetch the information & with the help of that information
+it sends and create the responses accordingly.
+
+-----------------------------------------------------------------------
+
+Features of Node JS-
+
+1.) Single threaded-
+
+Node js is based on single threaded concept.
+
+When the node js receives request then it will process the 
+first request after that it will move to the second.
+
+Node JS has Event loop that provides the illusion to the 
+node js as multi threaded programming language.
+
+2.) Event driven-
+
+In this concept the main loops listen the events and it 
+triggers the callback function, so that it doesn't block
+the execution.
+
+this concept makes node js more scalable.
+
+3.) It is a Asynchronous programming platform
+
+because it uses the concept of callback and event loops so
+that it can provides the illusion that it can handle multiple
+request simultaneously.
+
+*All the Api in node js is Asynchronous in nature.
+
+4.) Streams-
+
+Are the objects that is used to read the data from the source
+and write the data to the destination.
+
+It also helps us to optimise the processing time.
+
+
+Advantages of Node JS-
+
+--> it is a single programming platfrom in which we can
+write frontend and backend too.
+
+--> it is highly extensible because we can extend it 
+according to the demand and requirements.
+
+--> it is fast in processing the application because it
+has its own V8 engine.
+
+V8 engine-
+
+It is the javascript engine which is embeded inside the 
+browser.
+
+It takes javascript code and execute it while browsing.
+
+Javascript is internally compiled by V8 with JIT.
+
+----------------------------------------------------------------
+
+REPL-
+
+Read Eval Print Loop
+
+It is runtime environment which allows us to enter and execute
+the code.
+
+-------------------------------------------------------------------
+
+Synchronous code & Asynchronous code ?
+
+Synchronous code-
+
+It is also called as blocking code.
+
+It executes as we are writting the code line by line.
+
+eg- 2 Task-
+
+1.) readFile //1st execute
+
+2.) printing Srijan //2nd execute
+
+Asynchronous code-
+
+It is also called as Non blocking code.
+
+In this approach the code will be executed in a different order
+in which we have written it.
+
+with the help of callback we can achieve the functionality of
+Asynchronous programming.
+
+eg- 2 Task-
+
+1.) readFile
+
+2.) printing Srijan
+
+-------------------------------------------------------------------------
+
+Modules-
+
+1.)Core module-
+It has limited functionalities
+
+like-
+
+required('fs')
+required('http')
+
+2.)Local module-
+We can install module locally in our application.
+
+via npm we can install it.
+
+3.)third party module-
+Are the collection of modules.
+
+packages are store under node_modules folder
+
+npm- node package manager
+
+--------------------------------------------------------------
+
+Buffer-
+
+It is a global class that can be accessend without importing
+buffer module.
+
+Buffer is a core module.
+
+It is used to store the raw data as like array.
+
+------------------------------------------------------------------
+
+Angular Testing Tools-
+
+1.)Jasmine
+
+It is a testing framework which provides us the application
+for the basic test.
+
+2.)Karma
+
+It is the test runner which is used for writting and running
+the unit test.
+
+3.)Protractor
+
+It is used for to e2e (end to end testing)
+We can run application on real environment and the same application
+on Protractor environment,
+so that we get the simulated behavior of the application.
+
+4.)Angular testing utilities
+
+It is used to create the test environment for the Angular
+application.
+
+---------------------------------------------------------------------
+Jasmine-
+
+it is for basic test. It is also used to test Synchronous and
+Asynchronous javascript code.
+
+it is open source technology.
+
+it doesn't required DOM.
+
+The syntax is very easy.
+
+Jasmine has matchers(gives us the comparision between
+actual value and expected value)-
+
+1.)toBe
+
+2.)not toBe
+
+3.)toEqual
+
+4.)toMatch
+
+the backbone -
+
+1.)suite- It is the building block of Jasmine
+framework.
+It has one function describe()
+
+2.)spec- It is a test case inside the test suite
+
+Jasmine has 2 global functions-
+
+1.)beforeEach()-
+It will be called only once when the spec in the
+describe function called.
+
+2.)AfterEach()-
+after each spec component get execute then it will
+be called.
+
+------------------------------------------------------------
+
+Karma-
+
+It is a test running framework.
+
+It has its own configuration file karma.conf.js
+(all the configuration are present inside this file).
+
+-----------------------------------------------------------------
+
+Isolated unit test and integrated unit test -
+
+isolated unit test-
+
+eg- service
+
+integrated unit test-
+
+eg- components and directives.
+
+----------------------------------------------------------------------------
+
+Publish package to npm-
+

@@ -1,0 +1,34 @@
+Task-
+
+create service- api
+
+create component - Post
+
+https://jsonplaceholder.typicode.com/posts
+
+fetch data in responsive cards
+
+---------------------------------------------
+
+Call stack-
+It is used to track the function call in the execution of
+the program.
+
+totally depends on LIFO(Last In First Out)
+
+Event queue-
+It is a data structure that hold events and callbacks waiting
+to be processed.
+
+Event loop-
+Is the process that continuously check the call stack and event 
+queue.
+
+The purpose of event loop is to move the events from event queue
+to call stack for execution.
+
+Working principle-
+Event loop checks the call stack is empty or not?
+
+If call stack is empty then it takes the event from the event queue
+and push it into the call stack.

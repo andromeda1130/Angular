@@ -1,0 +1,59 @@
+Custom directives-
+
+User defined directives are called as Custom directives.
+
+------------------------------------------------------------
+
+Services-
+are injectable
+we can use service as dependency injectiom
+
+are reusable
+
+Api-
+
+we need to establish the communication b/w client and server
+
+HTTPCLIENT module.
+
+https://newsapi.org/v2/everything?q=tesla&from=2025-09-13&sortBy=publishedAt&apiKey=6d076249df4b4b6a9756bb99bf090689
+
+Life cycle method of Angular-
+
+ngOnInit()-
+it is used to initialise the data , 
+the property of this function is it executes only once
+
+
+
+
+create Products component & fakestore service - fetch  the Api
+ 
+ 
+https://fakestoreapi.com/products
+ 
+[
+
+  {
+
+    "id": 0,
+
+    "title": "string",
+
+    "price": 0.1,
+
+    "description": "string",
+
+    "category": "string",
+
+    "image": "http://example.com"
+
+  }
+
+]
+ 
+fetch all the above data from the Api ?
+
+-----------------------------------------------
+
+create MVVM architecture on Contact component ?

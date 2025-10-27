@@ -1,0 +1,10 @@
+Promises-
+
+task-
+What is Promise and Explain 4 states of promises? Implement promise
+with suitable example?
+
+-->Pending
+-->Fulfilled
+-->Rejected
+-->Settled

@@ -1,0 +1,77 @@
+MongoDb-
+
+It is developed by MongoDb Inc in 2009
+
+It is written in C , C++ , Javascript
+
+It is an open source nosql database that
+provides us high performance and flexibility.
+
+MongoDb is also called as No SQL database because
+it doesn't depends on RDBMS (Relational Database
+Management System).
+
+We can store unstructured data in MongoDb that's why
+it is also called as schema less data model.
+
+MongoDb comes under the category of document oriented
+database.
+
+Features of MongoDb-
+
+1.)document oriented-
+It stores the data in documents.
+
+2.)collection-
+It holds the collection of documents.
+
+3.)we can store unstructured data in MongoDb.
+
+4.)It is very secure because it has its own control
+and authentication feature.
+
+
+RDBMS                    MongoDb
+------                   --------
+
+database                 database
+table                    collection
+records                  document
+columns                  fields
+primary key              _id
+
+
+--------------------------------
+
+try to implement updateMany
+
+create database
+
+products-
+
+collection
+
+data
+
+fields-
+_id,pname,pqty,pstock,pdescription
+
+upto 5 fields-
+
+---------------------------------
+
+Comparison Query Operator-
+
+$eq- It matches the value that is equal to the specifying value.
+
+$gt- It matches the value that is greater than the specifying value.
+
+$gte- It matches the value that is greater than equal to specifying value.
+
+$lt , $lte
+
+$in-It is used to match any value that is available in Array.
+
+-------------------------------------------------------------
+
+CRUD- Create,Read,Update,Delete

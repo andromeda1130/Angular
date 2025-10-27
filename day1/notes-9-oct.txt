@@ -1,0 +1,133 @@
+Angular-
+
+It is an open source typescript(is more related to ES6 version of javascript,
+is partially object oriented) based frontend framework which is used to 
+create SPA(Single Page Application).
+
+* Angular extends html and makes the Application dynamic.
+* Angular is the product of Google.
+
+
+-------------------------------------------------------------------
+
+Difference between Traditional Application and SPA(Single Page Application)?
+
+Traditional Application-
+-----------------------
+
+client - server architecture | request and response model.
+
+client-------------http-------------------server
+
+server-------------http--------------------client
+
+eg- clicking button or submitting form
+
+when the request go to the server , in response the srver will generate a new html
+page for every request , then the processing time of the Application will be increase
+and the performance of the Application get reduced automatically.
+
+that's why SPA comes in picture.
+
+SPA(Single Page Application)-
+----------------------------
+
+eg- Home About Products Contact
+
+it loads the single html page initially and dynamically it update the content as per
+the user interact with the Application.
+
+it will not reload the entire page for every request , then the processing time of
+the Application will be reduced and the performance
+
+
+--------------------------------------------------
+Difference between Angular JS and Angular
+
+
+
+--------------------------------------------------------
+
+Angular(Angular 2 and later versions)
+
+Angular is completely rewritten of Angular JS
+
+Angular follows component based approach.
+
+Angular is written in typescript.
+
+Angular JS supports two way databinding , directives components,
+pipes , API , Services , dependency injection , Form validation , Routing
+
+Angular supports Mobile development.
+
+-------------------------------------------------
+HTML Headings
+<h1>-<h6>
+
+<h1>-most bold
+
+<h6>-least bold
+
+Hyperlink-
+it is used to connect one webpage with another webpage
+and 
+
+
+eg:click me ---> Google
+
+marque-
+
+----------------------------------------------------------
+ 
+ CSS- Cascading Style Sheet
+
+ IT is a stylesheet language it is used to add look
+
+
+ there are 4 types of selector in CSS-
+
+ 1.)Element as a selector
+
+ 2.)id as a selector
+
+ 3.)class as a selector
+
+ 4.)universal as a selector
+
+ -----------------------------------------------------
+
+ Custom component-
+
+ databinding-
+
+ there are 3 ways to get the data from the controller-
+
+ 1.)interpolation
+
+ 2.)Array
+
+ 3.)json
+
+
+ -----------------------------------------
+
+ directives- 3types
+
+ 1.)structure directives
+
+ there are 3 types of structure directives
+
+i.)ngIf
+
+ii.)ngFor
+
+iii.)ngSwitch
+
+2.)component directives
+
+3.)attribute directives
+
+
+
+

@@ -1,0 +1,59 @@
+Create 4 components
+
+i.)Home 
+
+ii.)About
+
+iii.)Products
+
+iv.)Contact
+
+& integrate in Routing ?
+
+-------------------------------------------
+
+Forms-
+
+There are two types of forms in Angular-
+
+i.)Template driven form-
+
+It has form specific directives to implement form functionality.
+
+*It is best suited for simple forms
+
+*Template driven forms are not much scalable a scopare to Reactive Form.
+
+ii.)Model driven form | Reactive form
+
+-------------------------------------------------------------------------------------------
+
+in About Componenet-
+
+via attribute directive
+
+ngClass - try to apply dynamic classes on div
+
+try to change the dimensions and give styling
+
+
+-------------------------------------------------
+
+in Products components-
+
+create 2 nested components-
+
+i.)ProductDetails
+
+ii.)ProductCategory
+
+& integrate this components in Routing ?
+
+--------------------------------------------------
+
+cards-
+
+------------------------------------------------------------
+
+Reactive forms-
+
